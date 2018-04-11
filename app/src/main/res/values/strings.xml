@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="nanodegree_text">World-Class Nanodegree Programs</string>
+    <string name="skills_text">Master in-Demand Skills</string>
+    <string name="udacity_text">Udacity</string>
+    <string name="street_text">2465 Latham St</string>
+    <string name="city_state_text">Mountain View, CA 94043</string>
+    <string name="phone_text">650-555-5555</string>
+    <string name="website_text">udacity.com</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/portImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:onClick="goToWebsite"
+        android:src="@drawable/udacity_portrait"
+        />
+
+    <!--Nanodegree-->
+    <TextView
+        android:id="@+id/nanoText"
+        style="@style/TextViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/masterText"
+        android:layout_marginBottom="@dimen/xsmall"
+        android:textAllCaps="true"
+        android:textSize="@dimen/large_text"
+        android:text="@string/nanodegree_text" />
+
+    <!--Demand Skill-->
+    <TextView
+        android:id="@+id/masterText"
+        style="@style/TextViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/businessNameText"
+        android:layout_marginBottom="@dimen/small_2"
+        android:textSize="@dimen/xLarge_text"
+        android:text="@string/skills_text" />
+
+    <!--Udacity Name-->
+    <TextView
+        android:id="@+id/businessNameText"
+        style="@style/TextViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/addressText"
+        android:layout_marginBottom="@dimen/small"
+        android:textSize="@dimen/large_text_2"
+        android:text="@string/udacity_text" />
+
+    <!--Street-->
+    <TextView
+        android:id="@+id/addressText"
+        style="@style/TextViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/cityText"
+        android:textSize="@dimen/large_text"
+        android:text="@string/street_text" />
+
+    <!--City, State-->
+    <TextView
+        android:id="@+id/cityText"
+        style="@style/TextViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/phoneText"
+        android:textSize="@dimen/large_text"
+        android:text="@string/city_state_text" />
+
+    <!--Phone-->
+    <TextView
+        android:id="@+id/phoneText"
+        style="@style/TextViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/websiteText"
+        android:layout_marginBottom="@dimen/small"
+        android:textSize="@dimen/large_text"
+        android:text="@string/phone_text" />
+
+    <!--website-->
+    <TextView
+        android:id="@+id/websiteText"
+        style="@style/TextViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/medium"
+        android:textSize="@dimen/small_text"
+        android:text="@string/website_text" />
+
+</RelativeLayout>
